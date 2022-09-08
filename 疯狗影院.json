@@ -142,9 +142,9 @@
     //列表二次截取后
     "list_twice_suf": "空",
     //列表数组截取前，必须
-    "list_arr_pre": "<ul class=\"list-unstyled row text-center ff-playurl-line ff-playurl",
+    "list_arr_pre": "<div class=\"tab-pane fade in active play_num_list clearfix",
     //列表数组截取后，必须
-    "list_arr_suf": "</ul>",
+    "list_arr_suf": "</div>",
     
     //集数是否二次截取
     "epi_YN_twice": "0",
