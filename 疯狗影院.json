@@ -143,7 +143,7 @@
     //列表二次截取后
     "list_twice_suf": "空",
     //列表数组截取前，必须
-    "list_arr_pre": "class=\"tab-pane fade in active play_num_list clearfix",
+    "list_arr_pre": "class=\"tab-pane fade play_num_list clearfix",
     //列表数组截取后，必须
     "list_arr_suf": "</div>",
     
