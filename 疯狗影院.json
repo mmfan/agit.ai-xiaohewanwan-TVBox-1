@@ -5,7 +5,7 @@
     "author": "聆听优美旋律",
     //请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "UserAgent":"",
+    "UserAgent":"PC_UA",
     //请求头Referer参数，如果只是播放页需要，填WebView即可引用播放页的链接作嗅探Referer参数。
     //一般很少用，留空或删除
     "Referer":"",
@@ -17,7 +17,7 @@
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
 
-    "class_url": "https://m.fenggoudy3.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
+    "class_url": "http://www.fenggoudy2.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
    
     //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
@@ -47,9 +47,9 @@
     "cat_twice_suf": "空",
     
     //分类数组截取前
-    "cat_arr_pre": "class=\"image",
+    "cat_arr_pre": "class=\"v_pic",
     //分类数组截取后
-    "cat_arr_suf": "</p>",
+    "cat_arr_suf": "</div>",
     //分类截取片单图片，截取前缀&&截取后缀
     "cat_pic": "data-original=\"&&\"",
     //分类截取片单标题，截取前缀&&截取后缀
