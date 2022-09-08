@@ -1,6 +1,6 @@
 {
     //规则名
-    "title": "XYQBiu模板",
+    "title": "疯狗影院",
     //作者
     "author": "聆听优美旋律",
     //请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
@@ -16,7 +16,7 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-	http://www.fenggoudy3.com/list-select-id-2-type--area--year--star--state--order-addtime.html
+
     "class_url": "http://www.fenggoudy3.com/list-select-id-2-type--{cateId}--year--star--state--order-addtime-p-{catePg}.html[firstPage=第一页不含页码的链接]",
     //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
