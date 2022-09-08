@@ -48,7 +48,7 @@
     //分类数组截取前
     "cat_arr_pre": "<p class=\"image",
     //分类数组截取后
-    "cat_arr_suf": "/p>",
+    "cat_arr_suf": "</p>",
     //分类截取片单图片，截取前缀&&截取后缀
     "cat_pic": "data-original=\"&&\"",
     //分类截取片单标题，截取前缀&&截取后缀
@@ -64,7 +64,7 @@
     
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "http://www.lezhutv.com/index.php/vod/search/page/1/wd/{wd}.html",
+    "search_url": "",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
@@ -99,7 +99,7 @@
     //搜索片单链接，截取前缀&&截取后缀
     "sea_url": "href=\"&&\"",
     //搜索片单链接补前缀
-    "search_prefix": "http://www.lezhutv.com",
+    "search_prefix": "",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": "",
     //搜索副标题，截取前缀&&截取后缀
@@ -109,11 +109,11 @@
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
     "force_play": "0",
     //直接播放链接补前缀
-    "play_prefix": "https://live.52sf.ga/huya/",
+    "play_prefix": "",
     //直接播放链接补后缀，设置为#isVideo=true#可强制识别为视频链接
     "play_suffix": "#isVideo=true#",
     //直接播放链接设置请求头，只对直链视频有效，每一组用#分开
-    "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
+    "play_header": "",
     
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</p>",
@@ -161,7 +161,7 @@
     //集数链接，截取前缀&&截取后缀
     "epi_url": "href=\"&&\"",
     //集数链接补前缀
-    "epiurl_prefix": "http://www.lezhutv.com",
+    "epiurl_prefix": "",
     //集数链接补后缀
     "epiurl_suffix": "",
     
