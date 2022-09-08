@@ -58,7 +58,7 @@
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",  
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.fenggoudy3.com",
+    "cat_prefix": "https://www.fenggoudy2.com",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -153,15 +153,15 @@
     //集数二次截取后
     "epi_twice_suf": "空",
     //集数数组截取前，必须
-    "epi_arr_pre": "空",
+    "epi_arr_pre": "<a",
     //集数数组截取后，必须
-    "epi_arr_suf": "空",
+    "epi_arr_suf": "/a>",
     //集数标题，截取前缀&&截取后缀
     "epi_title": "",
     //集数链接，截取前缀&&截取后缀
     "epi_url": "href=\"&&\"",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.fenggoudy3.com",
+    "epiurl_prefix": "https://www.fenggoudy2.com",
     //集数链接补后缀
     "epiurl_suffix": "",
     
