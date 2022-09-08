@@ -46,9 +46,9 @@
     "cat_twice_suf": "</ul>",
     
     //分类数组截取前
-    "cat_arr_pre": "class=\"image",
+    "cat_arr_pre": "class=\"col-xs-4",
     //分类数组截取后
-    "cat_arr_suf": "</p>",
+    "cat_arr_suf": "</li>",
     //分类截取片单图片，截取前缀&&截取后缀
     "cat_pic": "src=\"&&\"",
     //分类截取片单标题，截取前缀&&截取后缀
