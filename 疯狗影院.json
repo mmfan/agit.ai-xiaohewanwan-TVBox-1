@@ -17,7 +17,7 @@
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
 
-    "class_url": "https://www.fenggoudy3.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
+    "class_url": "https://www.fenggoudy2.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
     //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
@@ -46,11 +46,11 @@
     "cat_twice_suf": "空",
     
     //分类数组截取前
-    "cat_arr_pre": "class=\"col-xs-4",
+    "cat_arr_pre": "class=\"v_pic",
     //分类数组截取后
-    "cat_arr_suf": "</li>",
+    "cat_arr_suf": "</div>",
     //分类截取片单图片，截取前缀&&截取后缀
-    "cat_pic": "src=\"&&\"",
+    "cat_pic": "data-src=\"&&\"",
     //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "alt=\"&&\"",
     //分类截取片单副标题，截取前缀&&截取后缀
