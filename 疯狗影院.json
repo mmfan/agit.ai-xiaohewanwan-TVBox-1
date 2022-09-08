@@ -5,7 +5,7 @@
     "author": "聆听优美旋律",
     //请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "UserAgent":"MOBTLE_UA",
+    "UserAgent":"",
     //请求头Referer参数，如果只是播放页需要，填WebView即可引用播放页的链接作嗅探Referer参数。
     //一般很少用，留空或删除
     "Referer":"",
