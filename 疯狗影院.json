@@ -43,7 +43,7 @@
     //分类二次截取前
     "cat_twice_pre": "空",
     //分类二次截取后
-    "cat_twice_suf": "</ul>",
+    "cat_twice_suf": "空",
     
     //分类数组截取前
     "cat_arr_pre": "class=\"col-xs-4",
@@ -58,7 +58,7 @@
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",  
     //分类片单链接补前缀  
-    "cat_prefix": "http://www.fenggoudy3.com",
+    "cat_prefix": "https://www.fenggoudy3.com",
     //分类片单链接补后缀
     "cat_suffix": "",
     
