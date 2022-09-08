@@ -59,7 +59,7 @@
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",  
     //分类片单链接补前缀  
-    "cat_prefix": "www.fenggoudy2.com",
+    "cat_prefix": "http://www.fenggoudy2.com",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -143,7 +143,7 @@
     //列表二次截取后
     "list_twice_suf": "空",
     //列表数组截取前，必须
-    "list_arr_pre": "class=\"tab-pane fade play_num_list clearfix",
+    "list_arr_pre": "id=\"myTabContent",
     //列表数组截取后，必须
     "list_arr_suf": "</div>",
     
