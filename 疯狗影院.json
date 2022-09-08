@@ -58,7 +58,7 @@
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",  
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.fenggoudy2.com",
+    "cat_prefix": "https://www.fenggoudy3.com",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -161,7 +161,7 @@
     //集数链接，截取前缀&&截取后缀
     "epi_url": "href=\"&&\"",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.fenggoudy2.com",
+    "epiurl_prefix": "https://www.fenggoudy3.com",
     //集数链接补后缀
     "epiurl_suffix": "",
     
