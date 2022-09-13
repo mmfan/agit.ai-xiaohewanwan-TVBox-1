@@ -1,0 +1,101 @@
+{"name": "吼吼视频",
+"url": "https://www.hoho.tv",
+
+//访问请求头
+"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+
+//播放请求头
+"User": "User-Agent$123",
+
+//0表示：记录，1表示：不记录
+"是否记录历史": "0",
+
+//直接播放截取的播放页链接网址，0表示：否，1表示：是
+"直接播放": "0",
+
+//分类页是否使用列表方式显示，0表示：否，1表示：是
+"列表显示": "0",
+
+//列表图片是否横图显示，0表示：否，1表示：是
+"横图显示": "0",
+
+//可以自定义列表翻页起始页的页数
+"qishiye": "1",
+
+//如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
+"fenlei": "电影$/vod/show/1/page/#电视剧$/vod/show/2/page/#动漫$/vod/show/4/page/#综艺$/vod/show/3/page/#记录片$/vod/show/20/page/",
+"houzhui": ".html",
+"shifouercijiequ": "0",
+"jiequqian": "空",
+"jiequhou": "空",
+"jiequshuzuqian": "class=\"module-item-pic",
+"jiequshuzuhou": "</div>",
+
+//如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
+"tupianqian": "data-src=\"",
+"tupianhou": "\"",
+"tupianqianzhui": "空",
+"biaotiqian": "title=\"",
+"biaotihou": "\"",
+"fubiaotiqian": "",
+"fubiaotihou": "",
+"lianjieqian": "href=\"",
+"lianjiehou": "\"",
+"ljqianzhui": "空",
+"ljhouzhui": "空",
+"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/paly/",
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+
+
+//线路名称显示部分，0不启用，1启用
+"是否启用播放线路名": "0",
+"线路名是否二次截取": "0",
+"线路名截取前": "空",
+"线路名截取后": "空",
+"线路名截取数组前": "class=\"module-tab-content",
+"线路名截取数组后": "</div>",
+"线路名标题前": "<span>",
+"线路名标题后": "</span>",
+
+//状态，导演，演员，剧情的截取
+"zhuangtaiqian": "集数：</span>",
+"zhuangtaihou": "</div>",
+"daoyanqian": "导演：</span>",
+"daoyanhou": "</a>",
+"zhuyanqian": "主演：</span>",
+"zhuyanhou": "</a>",
+"juqingqian": "class=\"video-info-item video-info-content vod_content\">",
+"juqinghou": "</div>",
+
+//播放集数截取部分
+"bfshifouercijiequ": "0",
+"bfjiequqian": "空",
+"bfjiequhou": "空",
+"bfjiequshuzuqian": "class=\"scroll-content",
+"bfjiequshuzuhou": "</div>",
+"bfyshifouercijiequ": "0",
+"bfyjiequqian": "空",
+"bfyjiequhou": "空",
+"bfyjiequshuzuqian": "<a",
+"bfyjiequshuzuhou": "</a>",
+"bfbiaotiqian": "<span>",
+"bfbiaotihou": "</span>",
+"bflianjieqian": "href=\"",
+"bflianjiehou": "\"",
+"bfqianzhui": "空"},
