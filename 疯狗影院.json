@@ -45,9 +45,9 @@
     "sea_twice_suf": "空",
     
     //搜索数组前缀
-    "sea_arr_pre": "class=\"list-unstyled vod-item-img ff-img-140",
+    "sea_arr_pre": "class=\"image",
     //搜索数组后缀
-    "sea_arr_suf": "/ul>",
+    "sea_arr_suf": "</p>",
     //搜索片单图片，截取前缀&&amp;截取后缀
     "sea_pic": "data-original=\"&&\"",
     //搜索片单标题，截取前缀&&amp;截取后缀
