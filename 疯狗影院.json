@@ -73,7 +73,7 @@
     //演员数据，截取前缀&&amp;截取后缀
     "proj_actor": "主演：</dt>&&</a>",
     //简介内容，截取前缀&&amp;截取后缀
-    "proj_plot": "class=\"tab-pane fade vod-nav-content active in&&</div>",
+    "proj_plot": "<div class=\"tab-pane fade vod-nav-content active in\">&&</div>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路是否二次截取
