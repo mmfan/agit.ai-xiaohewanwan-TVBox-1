@@ -120,7 +120,7 @@
     "tab_twice_suf": "空",
     
     //线路截取数组前
-    "tab_arr_pre": "class=\"page-header",
+    "tab_arr_pre": "class=\"glyphicon glyphicon-facetime-video ff-text\">",
     //线路截取数组后
     "tab_arr_suf": "</div>",
     //线路标题，截取前缀&&截取后缀
