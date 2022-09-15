@@ -28,16 +28,6 @@
     //分类页面截取数据模式，0为json，1为普通网页。
     //"cat_mode": "1",
     
-    //分类json列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-   // "catjsonlist": "data.list",
-    //分类json片单图片
-   // "catjsonpic": "roomSrc",
-    //分类json片单标题
-   // "catjsonname": "roomName",
-    //分类json片单链接
-   // "catjsonid": "rid",
-    //分类json片单副标题
-   // "catjsonstitle":"nickname",
     
     //分类是否二次截取
     "cat_YN_twice": "0",
@@ -125,16 +115,16 @@
     //线路是否二次截取
     "tab_YN_twice": "0",
     //线路二次截取前
-    "tab_twice_pre": "",
+    "tab_twice_pre": "空",
     //线路二次截取后
-    "tab_twice_suf": "",
+    "tab_twice_suf": "空",
     
     //线路截取数组前
-    "tab_arr_pre": "空",
+    "tab_arr_pre": "class=\"page-header",
     //线路截取数组后
-    "tab_arr_suf": "空",
+    "tab_arr_suf": "</div>",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "空",
+    "tab_title": "</span>&&</h2>",
     
     //列表是否二次截取
     "list_YN_twice": "0",
@@ -143,9 +133,9 @@
     //列表二次截取后
     "list_twice_suf": "空",
     //列表数组截取前，必须
-    "list_arr_pre": "id=\"myTabContent",
+    "list_arr_pre": "class=\"list-unstyled row text-center ff-playurl-line ff-playurl",
     //列表数组截取后，必须
-    "list_arr_suf": "</div>",
+    "list_arr_suf": "</ul>",
     
     //集数是否二次截取
     "epi_YN_twice": "0",
