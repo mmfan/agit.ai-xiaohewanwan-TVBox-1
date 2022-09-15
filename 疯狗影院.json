@@ -1,67 +1,32 @@
 {
-    //规则名
-    "title": "疯狗影院",
-    //作者
-    "author": "聆听优美旋律",
-    //请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
-    //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
+   "title": "疯狗影院",
+    "author": "",
     "UserAgent":"MOBILE_UA",
-    //请求头Referer参数，如果只是播放页需要，填WebView即可引用播放页的链接作嗅探Referer参数。
-    //一般很少用，留空或删除
     "Referer":"",
-    //图片是否需要走代理，一般是图片无Referer参数不显示那种需要，全局设置，0否，1是。
     "PicNeedProxy":"0",
-    //是否开启获取首页数据，0关闭，1开启
     "homeContent":"0",
-    //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "0",
-    //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-
     "class_url": "https://m.fenggoudy3.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
-   
-    //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
-    //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
     "class_value": "1&2&3&4",
-    //筛选数据，支持直写，clan本地路径，http云端链接，标准json格式，参考xpath的筛选写法
     "filterdata":{},
-    //分类页面截取数据模式，0为json，1为普通网页。
-    //"cat_mode": "1",
-    
-    
-    //分类是否二次截取
     "cat_YN_twice": "0",
-    //分类二次截取前
     "cat_twice_pre": "空",
-    //分类二次截取后
     "cat_twice_suf": "空",
-    
-    //分类数组截取前
     "cat_arr_pre": "class=\"image",
-    //分类数组截取后
     "cat_arr_suf": "</p>",
-    //分类截取片单图片，截取前缀&&截取后缀
     "cat_pic": "data-original=\"&&\"",
-    //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "alt=\"&&\"",
-    //分类截取片单副标题，截取前缀&&截取后缀
     "cat_subtitle": "",
-    //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",
-    //分类片单链接补前缀  
     "cat_prefix": "https://m.fenggoudy3.com",
-    //分类片单链接补后缀
     "cat_suffix": "",
-    
-    //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
-    //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
     "search_url": "",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
     "search_mode": "0",
     
-    //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
     "jsonlist": "list",
     //搜索json片单图片
     "jsonpic": "pic",
@@ -77,7 +42,7 @@
     //搜索二次截取前
     "sea_twice_pre": "空",
     //搜索二次截取后
-    "sea_twice_suf": "</ul>",
+    "sea_twice_suf": "空",
     
     //搜索数组前缀
     "sea_arr_pre": "<li",
@@ -155,10 +120,6 @@
     "epiurl_prefix": "",
     //集数链接补后缀
     "epiurl_suffix": "",
-    
-    //下面几个参数请勿乱用。否则可能会有副作用。
-    //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
-    //如果网页源码里没有这种请设置为0
     "Anal_MacPlayer":"0",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
     "ManualSniffer":"0",
