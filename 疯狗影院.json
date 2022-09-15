@@ -47,11 +47,11 @@
     //分类截取片单副标题，截取前缀&&截取后缀
     "cat_subtitle": "",
     //分类截取片单链接，截取前缀&&截取后缀
-    "cat_url": "href=\"/vod-read-id-&&\"",
+    "cat_url": "href=\"&&",
     //分类片单链接补前缀  
-    "cat_prefix": "https://m.fenggoudy3.com/vod-play-id-",
+    "cat_prefix": "https://m.fenggoudy3.com",
     //分类片单链接补后缀
-    "cat_suffix": "-sid-1-pid-1.html",
+    "cat_suffix": "",
     
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
@@ -133,9 +133,9 @@
     //列表二次截取后
     "list_twice_suf": "空",
     //列表数组截取前，必须
-    "list_arr_pre": "class=\"list-unstyled row text-center ff-playurl-line ff-playurl",
+    "list_arr_pre": "<ul class=\"list-unstyled row text-center ff-playurl-line ff-playurl",
     //列表数组截取后，必须
-    "list_arr_suf": "</ul>",
+    "list_arr_suf": "/ul>",
     
     //集数是否二次截取
     "epi_YN_twice": "0",
