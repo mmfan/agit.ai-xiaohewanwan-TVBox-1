@@ -81,7 +81,7 @@
     //线路二次截取前
     "tab_twice_pre": "class=\"page-header",
     //线路二次截取后
-    "tab_twice_suf": "</div>",
+    "tab_twice_suf": "class=\"clearfix",
      //线路截取数组前
     "tab_arr_pre": "<h2>",
     //线路截取数组后
