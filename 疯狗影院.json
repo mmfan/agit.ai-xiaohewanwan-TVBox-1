@@ -49,9 +49,9 @@
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",  
     //分类片单链接补前缀  
-    "cat_prefix": "",
+    "cat_prefix": "https://m.fenggoudy2.com/vod-play-id-",
     //分类片单链接补后缀
-    "cat_suffix": "",
+    "cat_suffix": "-sid-1-pid-1.html",
     
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
