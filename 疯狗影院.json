@@ -124,7 +124,7 @@
     //线路截取数组后
     "tab_arr_suf": "</div>",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "</span>&&</h2>",
+    "tab_title": "</span> &&</h2>",
     
     //列表是否二次截取
     "list_YN_twice": "0",
