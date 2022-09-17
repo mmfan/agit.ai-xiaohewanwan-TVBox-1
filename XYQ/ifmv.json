@@ -43,7 +43,7 @@
     "cat_twice_suf": "空",
     
     //分类数组截取前
-    "cat_arr_pre": "class=\"module-search-item",
+    "cat_arr_pre": "class=\"module-item-pic",
     //分类数组截取后
     "cat_arr_suf": "</div>",
     //分类截取片单图片，截取前缀&&截取后缀
@@ -91,9 +91,9 @@
     "sea_twice_suf": "空",
     
     //搜索数组前缀
-    "sea_arr_pre": "class=\"module-item-pic",
+    "sea_arr_pre": "class=\"module-search-item",
     //搜索数组后缀
-    "sea_arr_suf": "<div class=\"loading\"></div>",
+    "sea_arr_suf": "</div>",
     //搜索片单图片，截取前缀&&截取后缀
     "sea_pic": "data-src=\"&&\"",
     //搜索片单标题，截取前缀&&截取后缀
