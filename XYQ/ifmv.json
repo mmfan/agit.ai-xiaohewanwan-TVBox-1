@@ -16,9 +16,9 @@
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
     "class_url": "https://www.ifimv.com/vodshow/{cateId}--------{catePg}---.html",
     //分类名，分类1&分类2&分类3
-    "class_name": "电影&动漫&国产剧&美剧&日韩剧",
+    "class_name": "电影&动漫&电视剧",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "1&3&13&14&15",
+    "class_value": "1&3&2",
     //筛选数据，支持直写，clan://本地路径(可能有bug)，http云端链接，标准json格式，参考xpath的筛选写法
     "filterdata":{},
     
