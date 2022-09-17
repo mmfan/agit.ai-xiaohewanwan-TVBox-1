@@ -71,7 +71,7 @@
     //"sea_PtBody":"wd={wd}&search=",
     
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
-    "search_mode": "0",
+    "search_mode": "1",
     //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
     "jsonlist": "list",
     //搜索json片单图片
