@@ -104,9 +104,9 @@
     "sea_subtitle": "",
     
     //搜索片单链接补前缀
-    "search_prefix": "https://www.ifimv.com/play/&&",
+    "search_prefix": "https://www.ifimv.com/play/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": "-1-1.html",
+    "search_suffix": ".html",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
@@ -167,9 +167,9 @@
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.ifimv.com/play/",
+    "epiurl_prefix": "https://www.ifimv.com",
     //集数链接补后缀
-    "epiurl_suffix": "-1-1.html",
+    "epiurl_suffix": "",
     
     //下面几个参数请勿乱用。否则可能会有副作用。
     //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
