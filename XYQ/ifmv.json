@@ -167,9 +167,9 @@
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.ifimv.com",
+    "epiurl_prefix": "https://www.ifimv.com/play/",
     //集数链接补后缀
-    "epiurl_suffix": "",
+    "epiurl_suffix": "-1-1.html",
     
     //下面几个参数请勿乱用。否则可能会有副作用。
     //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
