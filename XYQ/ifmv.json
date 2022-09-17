@@ -84,20 +84,20 @@
     "jsonstitle":"",
     
     //搜索是否二次截取  
-    "sea_YN_twice": "0",
+    "sea_YN_twice": "1",
     //搜索二次截取前
-    "sea_twice_pre": "空",
+    "sea_twice_pre": "class=\"module-item-pic",
     //搜索二次截取后
-    "sea_twice_suf": "空",
+    "sea_twice_suf": "class=\"module-search-item",
     
     //搜索数组前缀
-    "sea_arr_pre": "class=\"module-search-item",
+    "sea_arr_pre": "<a",
     //搜索数组后缀
     "sea_arr_suf": "</div>",
     //搜索片单图片，截取前缀&&截取后缀
     "sea_pic": "data-src=\"&&\"",
     //搜索片单标题，截取前缀&&截取后缀
-    "sea_title": "alt=\"&&\"",
+    "sea_title": "title=\"&&\"",
     //搜索片单链接，截取前缀&&截取后缀
     "sea_url": "<a href=\"&&\"",
     //搜索副标题，截取前缀&&截取后缀
