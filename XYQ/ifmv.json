@@ -99,12 +99,12 @@
     //搜索片单标题，截取前缀&&截取后缀
     "sea_title": "alt=\"&&\"",
     //搜索片单链接，截取前缀&&截取后缀
-    "sea_url": "href=\"&&\"",
+    "sea_url": "<a href=\"&&\"",
     //搜索副标题，截取前缀&&截取后缀
     "sea_subtitle": "",
     
     //搜索片单链接补前缀
-    "search_prefix": "",
+    "search_prefix": "https://www.ifimv.com",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": "",
     
