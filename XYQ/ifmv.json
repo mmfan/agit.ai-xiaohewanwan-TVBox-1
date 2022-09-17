@@ -79,7 +79,7 @@
     //搜索json片单标题
     "jsonname": "name",
     //搜索json片单链接
-    "jsonid": "id",
+    "jsonid": "{\"id",
     //json片单副标题，这个很少有，预留着
     "jsonstitle":"",
     
