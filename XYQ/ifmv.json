@@ -43,7 +43,7 @@
     "cat_twice_suf": "空",
     
     //分类数组截取前
-    "cat_arr_pre": "class=\"module-item-pic",
+    "cat_arr_pre": "class=\"module-item",
     //分类数组截取后
     "cat_arr_suf": "</div>",
     //分类截取片单图片，截取前缀&&截取后缀
