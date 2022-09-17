@@ -66,7 +66,9 @@
     "SUserAgent":"PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://www.ifimv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
+    //"search_url": "https://www.ifimv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
+    "search_url": "https://www.ifimv.com/index.php/ajax/suggest?mid=1&wd={wd}",
+    
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     //"sea_PtBody":"wd={wd}&search=",
     
@@ -79,7 +81,7 @@
     //搜索json片单标题
     "jsonname": "name",
     //搜索json片单链接
-    "jsonid": "{\"id",
+    "jsonid": "id",
     //json片单副标题，这个很少有，预留着
     "jsonstitle":"",
     
