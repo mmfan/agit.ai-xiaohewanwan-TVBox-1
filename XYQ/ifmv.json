@@ -23,7 +23,7 @@
     "filterdata":{},
     
     //分类页面截取数据模式，0为json，1为普通网页。
-   // "cat_mode": "1",
+    "cat_mode": "1",
     //分类json列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
     //"catjsonlist": "data.list",
     //分类json片单图片
