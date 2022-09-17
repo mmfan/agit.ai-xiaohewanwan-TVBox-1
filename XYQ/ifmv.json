@@ -91,7 +91,7 @@
     "sea_twice_suf": "空",
     
     //搜索数组前缀
-    "sea_arr_pre": "<a",
+    "sea_arr_pre": "class=\"module-item-pic",
     //搜索数组后缀
     "sea_arr_suf": "class=\"loding",
     //搜索片单图片，截取前缀&&截取后缀
