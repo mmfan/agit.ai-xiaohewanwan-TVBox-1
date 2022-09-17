@@ -56,9 +56,9 @@
     "cat_url": "href=\"&&\"",
     
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.ifimv.com",
+    "cat_prefix": "https://www.ifimv.com/play/",
     //分类片单链接补后缀
-    "cat_suffix": "",
+    "cat_suffix": ".html",
     
     //搜索专属请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //多个请求头参数写法示例，"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok",
