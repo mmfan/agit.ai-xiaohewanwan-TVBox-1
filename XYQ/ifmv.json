@@ -63,7 +63,7 @@
     //搜索专属请求头UA,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //多个请求头参数写法示例，"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok",
     //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "SUserAgent":"MOBILE_UA",
+    "SUserAgent":"PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
     "search_url": "https://www.ifimv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
@@ -106,7 +106,7 @@
     //搜索片单链接补前缀
     "search_prefix": "https://www.ifimv.com/play/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": ".html",
+    "search_suffix": "-1-1.html",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
