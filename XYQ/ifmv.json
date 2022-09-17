@@ -66,12 +66,12 @@
     "SUserAgent":"MOBILE_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://www.ifimv.com/vsearch/--.html?wd={wd}",
+    "search_url": "https://www.ifimv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     //"sea_PtBody":"wd={wd}&search=",
     
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
-    "search_mode": "1",
+    "search_mode": "0",
     //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
     "jsonlist": "list",
     //搜索json片单图片
@@ -91,15 +91,15 @@
     "sea_twice_suf": "空",
     
     //搜索数组前缀
-    "sea_arr_pre": "class=\"module-item-cover",
+    "sea_arr_pre": "",
     //搜索数组后缀
-    "sea_arr_suf": "/div>",
+    "sea_arr_suf": "",
     //搜索片单图片，截取前缀&&截取后缀
-    "sea_pic": "data-src=\"&&\"",
+    "sea_pic": "",
     //搜索片单标题，截取前缀&&截取后缀
-    "sea_title": "title=\"&&\"",
+    "sea_title": "",
     //搜索片单链接，截取前缀&&截取后缀
-    "sea_url": "<a href=\"&&\"",
+    "sea_url": "",
     //搜索副标题，截取前缀&&截取后缀
     "sea_subtitle": "",
     
