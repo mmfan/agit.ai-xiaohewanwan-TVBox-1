@@ -93,7 +93,7 @@
     //搜索数组前缀
     "sea_arr_pre": "class=\"module-item-pic",
     //搜索数组后缀
-    "sea_arr_suf": "class=\"loding",
+    "sea_arr_suf": "/div>",
     //搜索片单图片，截取前缀&&截取后缀
     "sea_pic": "data-src=\"&&\"",
     //搜索片单标题，截取前缀&&截取后缀
