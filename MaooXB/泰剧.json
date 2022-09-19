@@ -16,18 +16,18 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://www.taijutv123.com/taiguoju/index-{catePg}.html[firstPage=第一页不含页码的链接]",
+    "class_url": "https://www.taijutv123.com/{cateId}/index-{catePg}.html",
     //分类名，分类1&分类2&分类3
-    "class_name": "电影&",
+    "class_name": "泰剧&",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "",
+    "class_value": "taiguoju&",
     //筛选数据，json格式，参考xpath的筛选写法
     "filterdata":{},
     
     //分类页面截取数据模式，0为json，其它数字为普通网页。
     "cat_mode": "1",
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": ".col-sm-6.col-xs-3&&a",
+    "cat_arr_rule": "#content&&li",
     //分类片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "cat_is_jsoup":"1",
     //分类片单标题
