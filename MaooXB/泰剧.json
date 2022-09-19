@@ -82,7 +82,7 @@
     "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
     
     //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
-    "proj_is_jsoup":"1",
+    "proj_is_jsoup":"0",
     //类型数据，截取前缀&&截取后缀
     "proj_cate": "",
     //年代数据，截取前缀&&截取后缀
