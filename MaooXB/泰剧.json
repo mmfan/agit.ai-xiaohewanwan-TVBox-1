@@ -101,7 +101,7 @@
     "tab_title": "href&&/a>",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.play-list.fade-in&&ul&&a",
+    "list_arr_rule": "body&&.play-list&&ul",
     //集数数组截取，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
