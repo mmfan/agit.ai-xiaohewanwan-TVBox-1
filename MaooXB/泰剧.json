@@ -28,6 +28,7 @@
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
    
     "cat_arr_rule": ".col-sm-6.col-xs-3&&li",
+    "cat_is_jsoup":"1",
 	
 	"cat_title": "a&&title",
 	
