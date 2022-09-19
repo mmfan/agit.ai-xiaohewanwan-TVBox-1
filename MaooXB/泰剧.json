@@ -90,9 +90,9 @@
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": ".myui-content__detail&&p,2&&Text!演员：",
+    "proj_actor": "主演：</span>&&</p>",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": ".myui-content__detail&&p,-1&&Text!简介：",
+    "proj_plot": "简介：</span>&&</p>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
