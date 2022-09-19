@@ -6,7 +6,7 @@
     //请求头UA,键名$键值，每一组用#分开，不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //多个请求头参数写法示例，"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok",每一组用#分开。
     //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "Headers":"PC_UA",
+    "Headers":" MOBILE_UA",
     //网页编码格式默认UTF-8编码，UTF-8，GBK，GB2312
     "Coding_format":"UTF-8",
     //图片是否需要代理
@@ -35,7 +35,7 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片，支持自定义图片链接
-    "cat_pic": ".fade-in&&src",
+    "cat_pic": ".lazyload&&src",
     //分类片单副标题
     "cat_subtitle":".pic-text&&Text",
     //分类片单链接补前缀  
