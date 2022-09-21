@@ -47,7 +47,7 @@
     //分类数组截取后
     "cat_arr_suf": "/li>",
     //分类截取片单图片，截取前缀&&截取后缀
-    "cat_pic": "data-original=\"&&\"",
+    "cat_pic": ".eclazy&&data-original=\"&&\"",
     //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "title=\"&&\"",
     //分类截取片单副标题，截取前缀&&截取后缀
@@ -95,7 +95,7 @@
     //搜索数组后缀
     "sea_arr_suf": "/li>",
     //搜索片单图片，截取前缀&&截取后缀
-    "sea_pic": "class=\"eclazy&&data-original=\"&&\"",
+    "sea_pic": "data-original=\"&&\"",
     //搜索片单标题，截取前缀&&截取后缀
     "sea_title": "title=\"&&\"",
     //搜索片单链接，截取前缀&&截取后缀
