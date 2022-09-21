@@ -133,9 +133,9 @@
     "tab_twice_suf": "",
     
     //线路截取数组前
-    "tab_arr_pre": "空",
+    "tab_arr_pre": "class=\"swiper-wrapper",
     //线路截取数组后
-    "tab_arr_suf": "空",
+    "tab_arr_suf": "/a>",
     //线路标题，截取前缀&&截取后缀
     "tab_title": "空",
     
