@@ -17,7 +17,7 @@
 "嗅探词":"",
 "过滤词":"",
 "播放请求头": "",
-"分类url": "https://jable.tv/{cateid}/{catepage}/",
+"分类url": "https://jable.tv/latest-updates/{catepage}/",
 "分类": "",
 
 "分类二次截取": "",
