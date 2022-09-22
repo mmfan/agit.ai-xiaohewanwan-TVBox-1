@@ -17,8 +17,8 @@
 "嗅探词":"",
 "过滤词":"",
 "播放请求头": "",
-"分类url": "https://jable.tv/latest-updates/{catepage}/",
-"分类": "字母||纪录$5",
+"分类url": "https://jable.tv/{catepage}/{catepage}/",
+"分类": "纪录$latest-updates",
 
 "分类二次截取": "",
 "分类数组": "",
