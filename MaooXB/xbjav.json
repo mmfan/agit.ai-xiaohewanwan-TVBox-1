@@ -1,9 +1,9 @@
 {"name": "av11",
-"url": "",
+"url": "https://jable.tv",
 "ua": "",
 "User": "空",
 "直接播放":"1",
-"fenlei": "电影解说$https://jable.tv/latest-updates/",
+"fenlei": "电影解说$/latest-updates/",
 "houzhui": "/",
 "qishiye": "1",
 "shifouercijiequ": "0",
@@ -21,4 +21,4 @@
 "lianjieqian": "href=\"",
 "lianjiehou": "\"",
 "ljqianzhui": ""
-},
+}
