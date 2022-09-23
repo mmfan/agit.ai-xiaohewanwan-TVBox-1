@@ -39,7 +39,7 @@
 "搜索二次截取": "",
 "搜索数组": "<li>&&</li>",
 "搜索图片": "data-original=\"&&\"",
-"搜索标题": "alt=\"&&\"",
+"搜索标题": "",
 "搜索链接": "href=\"&&\"",
 "搜索链接前缀": "https://www.subaibaiys.com",
 "分类url": "https://www.subaibaiys.com/{cateId}/page/{catePg}",
