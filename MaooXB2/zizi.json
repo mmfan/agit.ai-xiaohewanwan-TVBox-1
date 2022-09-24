@@ -1,0 +1,16 @@
+{
+    "作者": "JMG0922",
+    "站名": "子子",
+    "请求头": "电脑",
+    "免嗅" :"1",
+    "分类url": "https://www.ziziys.com/list/{cateId}-{catePg}.html",
+    "分类": "电影$1#电视剧$2#动漫$3",
+    "数组": "<div class=\"module-item-pic\">&&class=\"module-item\">",
+    "副标题": "module-item-text\">&&</div>",
+    "搜索后缀": "/vdetail/",
+    "播放数组": "class=\"sort-item&&</div>",
+    "线路数组": "class=\"module-tab-item tab-item&&<small>",
+    "线路标题": "<span>&&<",
+    "简介": "剧情：</span>&&</span>"
+    
+}
