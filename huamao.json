@@ -68,7 +68,7 @@
     "SUserAgent":"PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "http://www.huamaotv.com/search-pg-2-wd-{wd}.html",
+    "search_url": "http://www.huamaotv.com/search-pg-1-wd-{wd}.html",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     
@@ -93,9 +93,9 @@
     "sea_twice_suf": "</ul>",
     
     //搜索数组前缀
-    "sea_arr_pre": "<li",
+    "sea_arr_pre": "class=\"stui-vodlist",
     //搜索数组后缀
-    "sea_arr_suf": "/li>",
+    "sea_arr_suf": "/ul>",
     //搜索片单图片，截取前缀&&截取后缀
     "sea_pic": "data-original=\"&&\"",
     //搜索片单标题，截取前缀&&截取后缀
@@ -176,9 +176,9 @@
     //下面几个参数请勿乱用。否则可能会有副作用。
     //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
     //如果网页源码里没有这种请设置为0
-    "Anal_MacPlayer":"0",
+    "Anal_MacPlayer":"1",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
-    "ManualSniffer":"0",
+    "ManualSniffer":"1",
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":".mp4#.m3u8#.flv",
     //手动嗅探视频链接过滤关键词,每个用#隔开
