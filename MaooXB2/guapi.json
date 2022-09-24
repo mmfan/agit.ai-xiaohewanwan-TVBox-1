@@ -1,16 +1,16 @@
 {
-    "作者": "JMG0922",
-    "站名": "子子",
-    "请求头": "电脑",
-    "免嗅" :"1",
-    "分类url": "https://www.ziziys.com/list/{cateId}-{catePg}.html",
-    "分类": "电影$1#电视剧$2#动漫$3",
-    "数组": "<div class=\"module-item-pic\">&&class=\"module-item\">",
-    "副标题": "module-item-text\">&&</div>",
-    "搜索后缀": "/vdetail/",
-    "播放数组": "class=\"sort-item&&</div>",
-    "线路数组": "class=\"module-tab-item tab-item&&<small>",
-    "线路标题": "<span>&&<",
-    "简介": "剧情：</span>&&</span>"
-    
-}
+    "author": "JMG0903",
+    "name": "瓜皮TV",
+    "分类url": "https://guapitv.xyz/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+    "播放数组": "<div class=\"module-play-list-content&&</div>",
+    "播放标题": "span>&&</span",
+    "线路数组": "class=\"module-tab-item tab-item&&</div>",
+    "线路标题": "<span>&&</span>",
+    "副标题": "item-note\">&&</div>",
+    "搜索url": "/index.php/ajax/suggest?mid=1&wd=",
+    "搜索后缀": "/index.php/vod/detail/id/",
+    "状态": "更新：</span>&&</div>",
+    "导演": "导演：</span>&&</div>",
+    "主演": "主演：</span>&&</div>",
+    "简介": "<p>&&</p>"
+    }
