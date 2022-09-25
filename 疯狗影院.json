@@ -116,7 +116,7 @@
     "epiurl_prefix": "https://m.fenggoudy3.com",
     //集数链接补后缀
     "epiurl_suffix": "",
-    "Anal_MacPlayer":"0",
+    "Anal_MacPlayer":"1",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
     "ManualSniffer":"1",
     //手动嗅探视频链接关键字，每个用#隔开
