@@ -91,15 +91,15 @@
     //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
     "proj_is_jsoup":"1",
     //类型数据，截取前缀&&截取后缀
-    "proj_cate": ".video-info&&.video-info-aux&&Text",
+    "proj_cate": "",
     //年代数据，截取前缀&&截取后缀
-    "proj_year": ".video-info&&.video-info-items,2&&Text",
+    "proj_year": "",
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": ".video-info&&.video-info-items,1&&Text",
+    "proj_actor": "",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": ".video-info&&.video-info-content&&Text",
+    "proj_plot": "",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
