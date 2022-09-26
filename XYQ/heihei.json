@@ -89,7 +89,7 @@
     "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
     
     //项目信息jsoup与xb截取写法切换，1为jsoup写法(默认)，0为xb写法
-    "proj_is_jsoup":"1",
+    "proj_is_jsoup":"0",
     //类型数据，截取前缀&&截取后缀
     "proj_cate": "",
     //年代数据，截取前缀&&截取后缀
@@ -108,11 +108,11 @@
     "tab_title": "",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.scroll-content&&a",
+    "list_arr_rule": "body&&.scroll-content",
     //集数数组截取，必须
     "epi_arr_rule": "li",
     //集数标题，截取前缀&&截取后缀
-    "epi_title": "a&&title",
+    "epi_title": "a&&Text",
     //集数链接，截取前缀&&截取后缀
     "epi_url": "a&&href",
     //选集是否反转显示
