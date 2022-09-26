@@ -108,13 +108,13 @@
     "tab_title": "Text",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.module-player-list",
+    "list_arr_rule": "body&&.scroll-content",
     //集数数组截取，必须
-    "epi_arr_rule": ".scroll-content&&a",
+    "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
-    "epi_title": "Text",
+    "epi_title": "a&&title",
     //集数链接，截取前缀&&截取后缀
-    "epi_url": "href",
+    "epi_url": "a&&href",
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
@@ -125,7 +125,7 @@
     //下面几个参数请勿乱用。否则可能会有副作用。
     //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
     //如果网页源码里没有这种请设置为0
-    "Anal_MacPlayer":"0",
+    "Anal_MacPlayer":"1",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
     "ManualSniffer":"0",
     //手动嗅探视频链接关键字，每个用#隔开
