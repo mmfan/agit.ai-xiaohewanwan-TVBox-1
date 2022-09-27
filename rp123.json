@@ -74,7 +74,7 @@
     //搜索片单副标题
     "sea_subtitle":"",
     //搜索片单链接补前缀
-    "search_prefix": "https://mac.rp123.top/videos/",
+    "search_prefix": "https://mac.rp123.top/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
@@ -103,12 +103,12 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".module-tab-content&&span",
+    "tab_arr_rule": "",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "span&&Text",
+    "tab_title": "",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.module-blocklist",
+    "list_arr_rule": "body&&.module-list",
     //集数数组截取，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
