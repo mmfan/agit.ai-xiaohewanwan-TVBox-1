@@ -42,7 +42,7 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片，支持自定义图片链接
-    "cat_pic": ".lazy.loaded&&data-original",
+    "cat_pic": ".lazy&&data-original",
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
