@@ -46,7 +46,7 @@
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://kpkuang.de",
+    "cat_prefix": "https://kpkuang.de/voddetail/",
     //分类片单链接补后缀
     "cat_suffix": "",
     
