@@ -68,7 +68,7 @@
     //搜索片单图片，支持自定义图片链接
     "sea_pic": "a&&data-original",
     //搜索片单标题
-    "sea_title": "a&&Text",
+    "sea_title": "a&&title",
     //搜索片单链接
     "sea_url": "a&&href",
     //搜索片单副标题
