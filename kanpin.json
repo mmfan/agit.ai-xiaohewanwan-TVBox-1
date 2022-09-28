@@ -16,7 +16,7 @@
     //首页列表数组截取。
     "home_arr_rule": "body&&.fed-list-item",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": "a",
+    "hmepi_arr_rule": "li",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "home_is_jsoup":"1",
     
