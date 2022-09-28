@@ -108,7 +108,7 @@
     "tab_title": "a&&Text",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.fed-part-rows",
+    "list_arr_rule": "body&&.uk-switcherhas(.fed-part-rows)",
     //集数数组截取，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
