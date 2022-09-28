@@ -52,7 +52,7 @@
     
     //搜索请求头参数,不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //多个请求头参数写法示例，键名$键值，每一组用#分开。"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok"。
-    "SHeaders":"User-Agent$PC_UA",
+    "SHeaders":"User-Agent$MOBILE_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
     "search_url": "https://www.kpkuang.de/vodsearch/-------------.html?wd={wd}",
@@ -62,11 +62,11 @@
     //搜索截取模式,0为json搜索，只支持列表在list数组里的，其它数字为网页截取。
     "search_mode": "1",
     //搜索列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "",
+    "sea_arr_rule": "body&&fed-list-pics",
     //搜索片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "sea_is_jsoup":"1",
     //搜索片单图片，支持自定义图片链接
-    "sea_pic": "",
+    "sea_pic": "a&&data-original",
     //搜索片单标题
     "sea_title": "a&&Text",
     //搜索片单链接
