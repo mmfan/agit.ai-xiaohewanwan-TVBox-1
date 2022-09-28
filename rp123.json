@@ -99,7 +99,7 @@
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</div>",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "剧情：</span>&&</div>",
+    "proj_plot": "class=\"module-blocklist scroll-box scroll-box-y module-player-list&&</div>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
