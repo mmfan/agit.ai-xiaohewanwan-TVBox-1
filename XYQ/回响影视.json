@@ -16,8 +16,8 @@
     //分类链接起始页码,禁止负数和含小数点。
     "分类起始页码": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "分类链接": "http://hxys.tv/vodshow/{cateId}--------{catePg}---.html",
-    //"分类链接": "http://hxys.tv/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+    //"分类链接": "http://hxys.tv/vodshow/{cateId}--------{catePg}---.html",
+    "分类链接": "http://hxys.tv/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
     //分类名，分类1&分类2&分类3
     "分类名称": "电影&剧集&综艺&动漫&纪录",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
@@ -327,9 +327,9 @@
     //分类片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "分类片单是否Jsoup写法":"1",
     //分类片单标题
-    "分类片单标题": "a&&title",
+    "分类片单标题": "li&&a&&title",
     //分类片单链接
-    "分类片单链接": "a&&href",
+    "分类片单链接": "li&&a&&href",
     //分类片单图片，支持自定义图片链接
     "分类片单图片": ".lazy&&data-original",
     //分类片单副标题
