@@ -62,7 +62,7 @@
     //搜索截取模式,0为json搜索，只支持列表在list数组里的，其它数字为网页截取。
     "search_mode": "1",
     //搜索列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "body&&.fed-deta-images",
+    "sea_arr_rule": "body&&.uk-text-center",
     //搜索片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "sea_is_jsoup":"1",
     //搜索片单图片，支持自定义图片链接
