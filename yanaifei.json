@@ -12,7 +12,7 @@
     //是否开启获取首页数据，0关闭，1开启
     "homeContent":"1",
     //首页推荐数据获取链接
-    "rcmed_url": "https://netflixya.com/",
+    "rcmed_url": "https://netflixya.com",
     //首页列表数组截取。
     "home_arr_rule": "body&&.module-item",
     //首页片单列表数组定位。
