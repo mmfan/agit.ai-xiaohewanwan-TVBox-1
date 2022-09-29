@@ -44,7 +44,7 @@
     //分类片单图片，支持自定义图片链接
     "cat_pic": "a&&data-original",
     //分类片单副标题
-    "cat_subtitle":"",
+    "cat_subtitle":".pic-text&&span",
     //分类片单链接补前缀  
     "cat_prefix": "http://1e6e.com",
     //分类片单链接补后缀
@@ -99,11 +99,11 @@
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</div>",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "",
+    "proj_plot": "简介：</span>&&</div>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".active&&li",
+    "tab_arr_rule": ".nav&&li",
     //线路标题，截取前缀&&截取后缀
     "tab_title": "a&&Text",
     
