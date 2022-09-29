@@ -44,7 +44,7 @@
     //分类片单图片，支持自定义图片链接
     "cat_pic": ".lazy&&data-original",
     //分类片单副标题
-    "cat_subtitle":".module-item-text&&Text",
+    "cat_subtitle":".module-item-note&&Text",
     //分类片单链接补前缀  
     "cat_prefix": "https://www.255tv.cn",
     //分类片单链接补后缀
@@ -129,7 +129,7 @@
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
     "ManualSniffer":"1",
     //手动嗅探视频链接关键字，每个用#隔开
-    "VideoFormat":"",
+    "VideoFormat":".mp4#.m3u8#.flv#pt=m3u8#video/tos",
     //手动嗅探视频链接过滤关键词,每个用#隔开
     "VideoFilter":".html#=http"
 }
