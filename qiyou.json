@@ -14,7 +14,7 @@
     //首页推荐数据获取链接
     "rcmed_url": "http://1e6e.com",
     //首页列表数组截取。
-    "home_arr_rule": "body&&.module-item",
+    "home_arr_rule": "body&&.stui-vodlist__box",
     //首页片单列表数组定位。
     "hmepi_arr_rule": "a",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
@@ -25,7 +25,7 @@
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
     "class_url": "http://1e6e.com/list/{cateId}_{catePg}.html",
     //分类名，分类1&分类2&分类3
-    "class_name": "电影&电视剧&动漫&综艺",
+    "class_name": "电影&电视剧&综艺&动漫",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
     "class_value": "1&2&4&3",
     //筛选数据，json格式，参考xpath的筛选写法
@@ -55,7 +55,7 @@
     "SHeaders":"User-Agent$PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "http://1e6e.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
+    "search_url": "http://1e6e.com/index.php?m=vod-search;post",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     
@@ -74,7 +74,7 @@
     //搜索片单副标题
     "sea_subtitle":"",
     //搜索片单链接补前缀
-    "search_prefix": "http://1e6e.com/voddetail/",
+    "search_prefix": "http://1e6e.com/view/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
