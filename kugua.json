@@ -34,7 +34,7 @@
     //分类页面截取数据模式，0为json，其它数字为普通网页。
     "cat_mode": "1",
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": "body&&.hl-vod-list",
+    "cat_arr_rule": "body&&.hl-list-item",
     //分类片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "cat_is_jsoup":"1",
     //分类片单标题
@@ -44,7 +44,7 @@
     //分类片单图片，支持自定义图片链接
     "cat_pic": "a&&data-original",
     //分类片单副标题
-    "cat_subtitle":".module-item-text&&Text",
+    "cat_subtitle":"",
     //分类片单链接补前缀  
     "cat_prefix": "https://www.kgysw.com",
     //分类片单链接补后缀
@@ -103,9 +103,9 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".module-tab-items-box&&div",
+    "tab_arr_rule": "",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "span&&Text",
+    "tab_title": "",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.hl-plays-list",
