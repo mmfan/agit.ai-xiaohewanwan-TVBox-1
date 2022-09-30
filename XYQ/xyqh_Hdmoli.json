@@ -1,7 +1,7 @@
 {
     "title": "hdmoli",
     "author": "tx",
-    "Headers": "MOBILE_UA",
+    //"Headers": "MOBILE_UA",
     "请求头参数": "User-Agent$Mozilla/5.0 (Linux; Android 12; V2049A Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.79 Mobile Safari/537.36#referer$https://www.hdmoli.com#Cookie$PHPSESSID=q10vb1rg0jh3pr7ll081tcd353; cf_chl_2=805313d35eec581; cf_chl_prog=x14; cf_clearance=411uDbLFIFEqab1WFvbFGSbydntEmcFTYj2DjKiUChY-1664512913-0-150",
     
     "Coding_format": "UTF-8",
