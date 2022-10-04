@@ -34,7 +34,7 @@
     //分类页面截取数据模式，0为json，其它数字为普通网页。
     "cat_mode": "1",
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": "body&&.moudle-item-pic",
+    "cat_arr_rule": "body&&.moudle-item",
     //分类片单信息jsoup与xb截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为xb写法
     "cat_is_jsoup":"1",
     //分类片单标题
@@ -44,7 +44,7 @@
     //分类片单图片，支持自定义图片链接
     "cat_pic": ".lazy&&data-src",
     //分类片单副标题
-    "cat_subtitle":".module-item-note&&Text",
+    "cat_subtitle":"",
     //分类片单链接补前缀  
     "cat_prefix": "http://91ipian.com",
     //分类片单链接补后缀
