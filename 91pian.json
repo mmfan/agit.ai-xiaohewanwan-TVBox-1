@@ -72,7 +72,7 @@
     //搜索片单链接
     "sea_url": "id",
     //搜索片单副标题
-    "sea_subtitle":"",
+    "sea_subtitle":".module-item-text&&Text",
     //搜索片单链接补前缀
     "search_prefix": "http://91ipian.com/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
