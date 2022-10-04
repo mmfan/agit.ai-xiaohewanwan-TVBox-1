@@ -97,18 +97,18 @@
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "",
+    "proj_actor": "主演：</span>&&</div>",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "",
+    "proj_plot": "class=\"video-info-item video-info-content vod_content\">&&/span>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": "",
+    "tab_arr_rule": "body&&.module-tab-item",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "",
+    "tab_title": "span&&Text",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.module-list",
+    "list_arr_rule": "body&&.sort-item",
     //集数数组截取，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
