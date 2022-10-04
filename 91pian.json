@@ -12,13 +12,13 @@
     //是否开启获取首页数据，0关闭，1开启
     "homeContent":"0",
     //首页推荐数据获取链接
-    "rcmed_url": "https://91ipian.com",
+    "rcmed_url": "",
     //首页列表数组截取。
-    "home_arr_rule": "body&&.module-items",
+    "home_arr_rule": "",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": "a",
+    "hmepi_arr_rule": "",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
-    "home_is_jsoup":"1",
+    "home_is_jsoup":"",
     
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
@@ -76,7 +76,7 @@
     //搜索片单链接补前缀
     "search_prefix": "http://91ipian.com/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": ".html",
+    "search_suffix": "",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
@@ -97,15 +97,15 @@
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "主演：</span>&&</div>",
+    "proj_actor": "",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "class=\"module-blocklist scroll-box scroll-box-y module-player-list&&</div>",
+    "proj_plot": "",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".module-tab-items-box&&div",
+    "tab_arr_rule": "",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "span&&Text",
+    "tab_title": "",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.module-list",
