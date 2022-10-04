@@ -6,13 +6,13 @@
     //请求头UA,键名$键值，每一组用#分开，不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
     //多个请求头参数写法示例，"User-Agent$PC_UA#Referer$http://ww.baidu.com#Cookie$ser=ok",每一组用#分开。
     //习惯查看手机源码写建议用手机版UA，习惯查看PC版源码写建议用电脑版UA
-    "Headers":"PC_UA",
+    "Headers":"MOBILE_UA",
     //图片是否需要代理
     "PicNeedProxy":"0",
     //是否开启获取首页数据，0关闭，1开启
     "homeContent":"1",
     //首页推荐数据获取链接
-    "rcmed_url": "http://xx8888.com",
+    "rcmed_url": "http://xx8888.cc",
     //首页列表数组截取。
     "home_arr_rule": "body&&.module-items",
     //首页片单列表数组定位。
@@ -23,7 +23,7 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "http://xx8888.com/vodshow/{cateId}--------{catePg}---.html",
+    "class_url": "http://xx8888.cc/vodshow/{cateId}--------{catePg}---.html",
     //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
@@ -46,7 +46,7 @@
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "http://xx8888.com",
+    "cat_prefix": "http://xx8888.cc",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -55,7 +55,7 @@
     "SHeaders":"User-Agent$PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "http://xx8888.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
+    "search_url": "http://xx8888.cc/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     
@@ -74,7 +74,7 @@
     //搜索片单副标题
     "sea_subtitle":".module-item-text&&Text",
     //搜索片单链接补前缀
-    "search_prefix": "http://xx8888.com/voddetail/",
+    "search_prefix": "http://xx8888.cc/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": "",
     
@@ -118,7 +118,7 @@
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
-    "epiurl_prefix": "http://xx8888.com",
+    "epiurl_prefix": "http://xx8888.cc",
     //集数链接补后缀
     "epiurl_suffix": "",
     
@@ -133,5 +133,3 @@
     //手动嗅探视频链接过滤关键词,每个用#隔开
     "VideoFilter":".html#=http"
 }
-
-创建训练
