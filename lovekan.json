@@ -16,7 +16,7 @@
     //首页列表数组截取。
     "home_arr_rule": "body&&.stui-vodlist__item",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": "a",
+    "hmepi_arr_rule": "li",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "home_is_jsoup":"1",
     
@@ -103,9 +103,9 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": "",
+    "tab_arr_rule": "body&&.stui-content__playlist",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "h3&&Text",
+    "tab_title": "span&&Text",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.stui-content__playlist",
