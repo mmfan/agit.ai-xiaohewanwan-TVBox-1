@@ -103,9 +103,9 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".nav&&ul",
+    "tab_arr_rule": "",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "li&&Text",
+    "tab_title": "",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.stui-content__playlist",
