@@ -46,7 +46,7 @@
     //分类片单副标题
     "cat_subtitle":".pic-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.ikyy.cc",
+    "cat_prefix": "https://yszj.tv",
     //分类片单链接补后缀
     "cat_suffix": "",
     
