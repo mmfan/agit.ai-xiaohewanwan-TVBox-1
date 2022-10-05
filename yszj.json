@@ -97,7 +97,7 @@
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "<p class=\"test&&/P>",
+    "proj_actor": "<p class=\"text&&/P>",
     //简介内容，截取前缀&&截取后&&缀
     "proj_plot": "简介：</span>&&</p>",
     
