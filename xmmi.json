@@ -97,9 +97,9 @@
     //地区数据，截取前缀&&截取后缀
     "proj_area": "",
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "class=\"data\">主演：&&</div>",
+    "proj_actor": "主演：</sapn>&&</div>",
     //简介内容，截取前缀&&截取后&&缀
-    "proj_plot": "class=\"module-info-introduction-content/>&&</div>",
+    "proj_plot": "class=\"module-info-introduction-content&&</div>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
