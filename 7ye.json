@@ -99,8 +99,7 @@
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</li>",
     //简介内容，截取前缀&&截取后&&缀
-    "proj_plot":"class=\"fed-padding fed-part-both fed-text-muted\">&&</p>"
-",
+    "proj_plot":"class=\"fed-padding fed-part-both fed-text-muted\">&&</p>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
