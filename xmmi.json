@@ -42,9 +42,9 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片，支持自定义图片链接
-    "cat_pic": "lazy&&data-original",
+    "cat_pic": ".lazy&&data-original",
     //分类片单副标题
-    "cat_subtitle":".pic-text&&Text",
+    "cat_subtitle":".module-item-note&&Text",
     //分类片单链接补前缀  
     "cat_prefix": "https://www.xdn8.com",
     //分类片单链接补后缀
@@ -105,7 +105,7 @@
     //线路截取数组
     "tab_arr_rule": ".module-tab-item&&a",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "a&&Text",
+    "tab_title": "span&&Text",
     
     //列表数组截取，必须
     "list_arr_rule": "body&&.module-list",
