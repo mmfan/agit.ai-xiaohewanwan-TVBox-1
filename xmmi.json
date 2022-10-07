@@ -74,7 +74,7 @@
     //搜索片单副标题
     "sea_subtitle":".pic-text&&Text",
     //搜索片单链接补前缀
-    "search_prefix": "https://www.xdn8.com/voddetail/",
+    "search_prefix": "https://www.xdn8.com/play/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
