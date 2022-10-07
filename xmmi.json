@@ -14,9 +14,9 @@
     //首页推荐数据获取链接
     "rcmed_url": "https://www.xdn8.com",
     //首页列表数组截取。
-    "home_arr_rule": "body&&.module-items",
+    "home_arr_rule": "body&&.module-item",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": ".moudule-item",
+    "hmepi_arr_rule": "a",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "home_is_jsoup":"1",
     
@@ -74,9 +74,9 @@
     //搜索片单副标题
     "sea_subtitle":".pic-text&&Text",
     //搜索片单链接补前缀
-    "search_prefix": "https://www.xdn8.com/vod/detail/",
+    "search_prefix": "https://www.xdn8.com/vod/paly/id/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": ".html",
+    "search_suffix": "/sid/1/nid/1.htm",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
