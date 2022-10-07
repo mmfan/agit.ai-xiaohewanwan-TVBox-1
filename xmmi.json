@@ -74,9 +74,9 @@
     //搜索片单副标题
     "sea_subtitle":".pic-text&&Text",
     //搜索片单链接补前缀
-    "search_prefix": "https://www.xdn8.com/vod/paly/id/",
+    "search_prefix": "https://www.xdn8.com/vod/detail/id/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": "/sid/1/nid/1.htm",
+    "search_suffix": ".htm",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
