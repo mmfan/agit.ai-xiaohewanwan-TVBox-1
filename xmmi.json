@@ -16,7 +16,7 @@
     //首页列表数组截取。
     "home_arr_rule": "body&&.module-items",
     //首页片单列表数组定位。
-    "hmepi_arr_rule": "module-item",
+    "hmepi_arr_rule": ".moudule-item",
     //首页片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
     "home_is_jsoup":"1",
     
@@ -74,7 +74,7 @@
     //搜索片单副标题
     "sea_subtitle":".pic-text&&Text",
     //搜索片单链接补前缀
-    "search_prefix": "https://www.xdn8.com/vod/play/",
+    "search_prefix": "https://www.xdn8.com/vod/detail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
