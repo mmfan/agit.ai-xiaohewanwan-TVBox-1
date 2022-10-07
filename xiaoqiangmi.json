@@ -71,7 +71,7 @@
     "演员详情": "body&&.stui-content__detail&&p,2&&Text!主演：",
     "简介详情": "body&&.stui-content__detail&&p,4&&Text!简介：",
     "线路列表数组规则": "body&&.t-ul",
-    "线路标题": "li&&title",
+    "线路标题": "span&&Text",
     //"播放列表数组规则": "body&&.playbtn",
     "播放列表数组规则": "body&&.stui-content__playlist",
     "选集列表数组规则": "a",
