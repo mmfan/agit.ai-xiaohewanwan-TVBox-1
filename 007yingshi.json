@@ -56,7 +56,7 @@
     "简介详情": "简介：</span>&&</li>",
     "线路列表数组规则": ".nav&&li",
     "线路标题": "Text",
-    "播放列表数组规则": "body&&.stui-vodlist.clearfix",
+    "播放列表数组规则": "body&&.stui-content__playlist",
     "选集列表数组规则": "li",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&title",
