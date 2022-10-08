@@ -56,7 +56,7 @@
     "简介详情": "简介：</span>&&</li>",
     "线路列表数组规则": "",
     "线路标题": "",
-    "播放列表数组规则": "body&&.stui-content__palylist",
+    "播放列表数组规则": "body&&.stui-content__playlist",
     "选集列表数组规则": "a",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&title",
