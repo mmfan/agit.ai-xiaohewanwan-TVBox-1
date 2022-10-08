@@ -24,7 +24,7 @@
     //"筛选子分类替换词": "dongzuopian&xijupian&aiqingpian&kehuanpian&kongbupian&juqingpian&zhanzhengpian&jilupian||guochanju&gangtaiju&rihanju&oumeiju",
     
     "分类截取模式": "1",
-    "分类列表数组规则": "body&&..stui-vodlist__box",
+    "分类列表数组规则": "body&&.stui-vodlist__box",
     "分类片单是否Jsoup写法": "1",
     "分类片单标题": "a&&title",
     "分类片单链接": "a&&href",
