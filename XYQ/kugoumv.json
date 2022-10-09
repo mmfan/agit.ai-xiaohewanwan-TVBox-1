@@ -46,12 +46,12 @@
     "cat_suffix": "",
         //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "",
+    "search_url": "https://m.kugou.com/app/i/mv.php?cmd=100&id={wd}&ismp3=1&ext=mp4",
       
         //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
     "search_mode": "0",
-    "jsonpic": "pic",
-    "jsonname": "name",
+    "jsonpic": "",
+    "jsonname": "MvName\":\"",
     "jsonid": "id",
     //json片单副标题，这个很少有，预留着
     "jsonstitle":"",
