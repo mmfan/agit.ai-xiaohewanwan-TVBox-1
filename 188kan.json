@@ -42,7 +42,7 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片，支持自定义图片链接
-    "cat_pic": ".lazy&&data-oroginal",
+    "cat_pic": ".lazy&&data-original",
     //分类片单副标题
     "cat_subtitle":".module-item-note&&Text",
     //分类片单链接补前缀  
@@ -108,7 +108,7 @@
     "tab_title": "span&&Text",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.module-paly-list",
+    "list_arr_rule": "body&&.module-play-list",
     //集数数组截取，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
@@ -127,7 +127,7 @@
     //如果网页源码里没有这种请设置为0
     "Anal_MacPlayer":"0",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
-    "ManualSniffer":"1",
+    "ManualSniffer":"0",
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":"",
     //手动嗅探视频链接过滤关键词,每个用#隔开
