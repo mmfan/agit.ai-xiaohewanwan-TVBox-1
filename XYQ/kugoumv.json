@@ -66,8 +66,8 @@
     "sea_url": "",
         //搜索数组前缀
     //"search_prefix": "",
-    "search_prefix": "",
-    "search_suffix": "",
+    "search_prefix": "{\"Thumb",
+    "search_suffix": "Privilege",
     "sea_subtitle": "",
       //片单链接是否直接播放，1是直接播放，0否。
     "force_play": "1",
