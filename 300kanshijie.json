@@ -45,7 +45,7 @@
     "搜索请求头参数": "User-Agent$MOBILE_UA",
     "搜索链接": "https://www.300kan.top/index.php/ajax/suggest.html?mid=1&wd={wd}",
     "POST请求数据": "",
-    "搜索截取模式": "1",
+    "搜索截取模式": "0",
     "搜索列表数组规则": "list",
     "搜索片单是否Jsoup写法": "是",
     "搜索片单图片": "pic",
