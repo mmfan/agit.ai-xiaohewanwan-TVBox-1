@@ -11,7 +11,7 @@
 "jiequhou": "",
 "jiequshuzuqian": "class=\"item",
 "jiequshuzuhou": "</div>",
-"tupianqian": "src=\"",
+"tupianqian": "class=\"lazy-load\" src=\"",
 "tupianhou": "\"",
 "biaotiqian": "alt=\"",
 "biaotihou": "\"",
