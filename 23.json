@@ -42,7 +42,7 @@
     "分类片单副标题": ".pack-prb&&Text",
     "分类片单链接加前缀": "https://www.23wm.net",
     "分类片单链接加后缀": "",
-    "搜索请求头参数": "手机",
+    "搜索请求头参数": "电脑",
     "搜索链接": "https://www.23wm.net/index.php/ajax/suggest.html?mid=1&wd={wd}",
     "POST请求数据": "",
     "搜索截取模式": "0",
