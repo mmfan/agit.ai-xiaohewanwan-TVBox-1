@@ -36,7 +36,7 @@
     "分类截取模式": "1",
     "分类列表数组规则": "body&&.pack-packcover",
     "分类片单是否Jsoup写法": "1",
-    "分类片单标题": "a&&tiele",
+    "分类片单标题": "a&&title",
     "分类片单链接": "a&&href",
     "分类片单图片": ".eclazy&&data-original",
     "分类片单副标题": ".pack-prb&&Text",
