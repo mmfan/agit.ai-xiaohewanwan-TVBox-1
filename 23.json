@@ -763,9 +763,9 @@
     "epiurl_prefix": "https://www.23wm.net",
     //集数链接补后缀
     "epiurl_suffix": "",
-   "Anal_MacPlayer":"1",
+   "Anal_MacPlayer":"0",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
-    "ManualSniffer":"1",
+    "ManualSniffer":"0",
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":".mp4#.m3u8#.flv",
     //手动嗅探视频链接过滤关键词,每个用#隔开
