@@ -64,7 +64,7 @@
     "地区详情": "",
     "演员详情": "class=\"leo-ellipsis-1 leo-fs-s leo-lh-ss主演：&&</div>",
     "简介详情": "class=\"leo-color-e leo-fs-s leo-ellipsis-2&&</p>",
-    "线路列表数组规则": ".swiper-wrapper.leo-source-cho&&ul",
+    "线路列表数组规则": "body&&.swiper-wrapper.leo-source-cho",
     "线路标题": "li&&Text",
     "播放列表数组规则": "body&&ul.content_playlist.cf",
     "选集列表数组规则": "a",
