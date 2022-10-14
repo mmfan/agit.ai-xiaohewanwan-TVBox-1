@@ -81,7 +81,7 @@
     //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "title=\"&&\"",
     //分类截取片单副标题，截取前缀&&截取后缀
-    "cat_subtitle": "class=\"subtitle text-time text-overflow&\">>&</div>",
+    "cat_subtitle": "class=\"subtitle text-time text-overflow&\">&</div>",
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",
     
