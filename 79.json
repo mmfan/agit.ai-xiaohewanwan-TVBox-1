@@ -19,9 +19,10 @@
     // https://www.libvio.me/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html
     "class_url": "http://91sesexx.top/video_list/{cateId}/{catePg}/index.html",
     //分类名，分类1&分类2&分类3
-    "class_name": "电影&",
+    //#官方综艺$/video_list/120/#兔子综艺$/video_list/35/#京东1综艺$/video_list/43/#蜜桃综艺$/video_list/42/
+    "class_name": "1080jav&麻豆传媒&水果派&骑兵有码&91综艺&天美传媒&JAV&兔子先生&京东传媒&蜜桃传媒&",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "122&",
+    "class_value": "122&38&37&24&91&47&120&35&43&42&",
     //筛选数据，支持直写，clan://本地路径(可能有bug)，http云端链接，标准json格式，参考xpath的筛选写法
     //填ext可以使用下面手动填写的筛选数据。
     "filterdata":{},
@@ -158,9 +159,9 @@
     //线路是否二次截取
     "tab_YN_twice": "0",
     //线路二次截取前
-    "tab_twice_pre": "",
+    "tab_twice_pre": "class=\"laiyuan",
     //线路二次截取后
-    "tab_twice_suf": "",
+    "tab_twice_suf": "</span>",
     
     //线路截取数组前
     "tab_arr_pre": "空",
