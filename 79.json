@@ -17,7 +17,7 @@
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
     // https://www.libvio.me/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html
-    "class_url": "http://91sesexx.top/video_list/{cateId}/{catePg}/index.html",
+    "class_url": "http://91sesexx.top/video_list/{cateId}/{catePg}/index.html[firstPage=http://91sesexx.top]",
     //分类名，分类1&分类2&分类3
     //#官方综艺$/video_list/120/#兔子综艺$/video_list/35/#京东1综艺$/video_list/43/#蜜桃综艺$/video_list/42/
     "class_name": "1080jav&麻豆传媒&水果派&骑兵有码&91综艺&天美传媒&JAV&兔子先生&京东传媒&蜜桃传媒&",
