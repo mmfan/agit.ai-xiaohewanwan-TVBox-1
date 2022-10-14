@@ -35,7 +35,7 @@
     "搜索片单链接": "id",
     "搜索片单副标题": "",
 
-    "搜索片单链接加前缀": "https://www.xinyaoys.com/vod/detail/id/",
+    "搜索片单链接加前缀": "https://www.xinyaoys.com/index.php/vod/detail/id/",
     "搜索片单链接加后缀": ".html",
     "链接是否直接播放": "0",
     "直接播放链接加前缀": "https://live.52sf.ga/huya/",
