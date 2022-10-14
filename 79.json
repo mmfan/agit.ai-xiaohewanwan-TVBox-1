@@ -81,7 +81,7 @@
     //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "title=\"&&\"",
     //分类截取片单副标题，截取前缀&&截取后缀
-    "cat_subtitle": "class=\"subtitle text-time text-overflow&&</div>",
+    "cat_subtitle": "class=\"subtitle text-time text-overflow&\">&</div>",
     //分类截取片单链接，截取前缀&&截取后缀
     "cat_url": "href=\"&&\"",
     
@@ -134,7 +134,7 @@
     "sea_subtitle": "",
     
     //搜索片单链接补前缀
-    "search_prefix": "http://91sesexx.top/video_detail/",
+    "search_prefix": "http://91sesexx.top",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": "",
     
@@ -207,7 +207,7 @@
     //如果网页源码里没有这种请设置为0
     "Anal_MacPlayer":"0",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
-    "ManualSniffer":"0",
+    "ManualSniffer":"1",
     //手动嗅探视频链接关键字，每个用#隔开
     "VideoFormat":".mp4#.m3u8#.flv",
     //手动嗅探视频链接过滤关键词,每个用#隔开
