@@ -43,7 +43,7 @@
     "简介详情": "<h3 class=\"hl-rb-title\">&&</h3>",
     "线路列表数组规则": "body&&.hl-tabs-btn",
     "线路标题": "a&&alt",
-    "播放列表数组规则": "body&&#hl-play-list",
+    "播放列表数组规则": "body&&#hl-plays-list",
     "选集列表数组规则": "li",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&Text",
