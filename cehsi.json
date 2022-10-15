@@ -103,14 +103,14 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": "body&&.fed-drop-btns",
+    "tab_arr_rule": "",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "a&&Text",
+    "tab_title": "",
     
     //列表数组截取，必须
-    "list_arr_rule": "body&&.fed-play-item",
+    "list_arr_rule": "body&&.myui-content__list",
     //集数数组截取，必须
-    "epi_arr_rule": ".fed-btns-info",
+    "epi_arr_rule": "li",
     //集数标题，截取前缀&&截取后缀
     "epi_title": "a&&Text",
     //集数链接，截取前缀&&截取后缀
@@ -118,7 +118,7 @@
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
-    "epiurl_prefix": "https://07vod.fun",
+    "epiurl_prefix": "https://www.kkdy.live",
     //集数链接补后缀
     "epiurl_suffix": "",
     
