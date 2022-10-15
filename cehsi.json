@@ -99,11 +99,11 @@
     //演员数据，截取前缀&&截取后缀
     "proj_actor": "主演：</span>&&</p>",
     //简介内容，截取前缀&&截取后&&缀
-    "proj_plot":"<span class=\"data\" style=\"\"&&</span>",
+    "proj_plot":"<span class=\"data\"&&</span>",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".nav&&ul",
+    "tab_arr_rule": ".nav&&li",
     //线路标题，截取前缀&&截取后缀
     "tab_title": "a&&Text",
     
