@@ -103,7 +103,7 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_rule置空或者全部不要填。
     //线路截取数组
-    "tab_arr_rule": ".active&&li",
+    "tab_arr_rule": ".nav&&ul",
     //线路标题，截取前缀&&截取后缀
     "tab_title": "a&&Text",
     
