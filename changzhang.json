@@ -47,7 +47,7 @@
     "POST请求数据": "",
     "搜索截取模式": "1",
     "搜索列表数组规则": "body&&.bt_img&&li",
-    "搜索片单是否Jsoup写法": "1",
+    "搜索片单是否Jsoup写法": "0",
     "搜索片单图片": ".thumb.lazy&&data-original",
     "搜索片单标题": "img&&alt&&Text",
     "搜索片单链接": "h3&&a&&href",
